@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">odc1</string>
+    <string name="bienvenu_odc">Bienvenu à ODC!</string>
+    <string name="recherche">Recherche</string>
+    <string name="cliquer_ici">Cliquer ICI</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="hello">Hello</string>
+    <string name="word">Word</string>
+    <string name="done">done</string>
+    <string name="reminder">Reminder name</string>
+    <string name="titre_de_la_page">Titre de la page</string>
+    <string name="todo">TODO</string>
+</resources>

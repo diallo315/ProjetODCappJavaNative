@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="9"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9">
+        <TextView
+            android:id="@+id/textViewContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contenu principal"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/textViewError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Une erreur est survenue"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+    <Button
+        android:id="@+id/btnclic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cliquer_ici"
+        android:background="@color/red"
+        android:elevation="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2"/>
+
+</LinearLayout>
